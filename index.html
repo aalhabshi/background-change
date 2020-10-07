@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>  
+<html>  
+    <head>  
+        <title>  changing the background </title> 
+    </head>  
+      
+    <body style = "text-align:center;">  
+          
+        <p id = "background" style = 
+            "font-size: 16px; font-weight: bold;">      
+        </p> 
+          
+        <button onclick = "change_color()">  
+            Click here 
+        </button> 
+
+          
+        <script> 
+          
+            BackGround.innerHTML = str; 
+          
+            function changeColor(color) { 
+                document.body.style.background = color; 
+            } 
+              
+            function change_color() { 
+                changeColor('Red'); 
+            }          
+
+
+        </script>  
+    </body>  
+</html>   
